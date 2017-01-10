@@ -10,9 +10,12 @@ topLevelUrl = 'http://127.0.0.1:8083'
 DevicesUrl= topLevelUrl +'/ZAutomation/api/v1/devices'
 LocationsUrl= topLevelUrl +'/ZAutomation/api/v1/locations'
 LoginUrl = topLevelUrl + '/ZAutomation/api/v1/login'
+# username and password for login to razzberry interface
+username = 'username' 
+password = 'password'
 
-
-#Settings for imperirazz
+#Settings for imperirazz 
+#authentication for imperirazz interface
 authEnabled = 0 #change to 1 to enable authorization
 usernameImperirazz = "username"
 passwordImperirazz = "password"
